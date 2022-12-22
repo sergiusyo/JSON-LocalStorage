@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: #e5e5e5;
+    margin: 0 auto;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  .list-reset {
+    list-style-type: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  ul,
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  
+  p,
+  h1,
+  h2,
+  h3,
+  span {
+    margin: 0;
+  }
+  
+  
+  .btn-reset {
+    padding: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
